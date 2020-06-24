@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign research_sorted = (site.research | sort: 'added' | reverse  %}
+{% assign research_sorted = site.research | sort: 'added' | reverse  %}
 
 <!-- Section -->
 <section>
